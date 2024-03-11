@@ -18,6 +18,7 @@ while opcao != 'n':
 
     inputA = float(input("Digite o primeiro numero da operacao: "))
     inputB = float(input("Digite o segundo numero da operacao: "))
+    print("-----------------------------")
     match opcao:
 
         case '1':
@@ -32,6 +33,7 @@ while opcao != 'n':
             print("Operacao inválida!")
 
     if(resultado is not None):
-        print("-----------------------------")
         print(f"O resultado é: {resultado}")
+
+    print("-----------------------------")
     
