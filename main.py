@@ -34,5 +34,4 @@ while opcao != 'n':
     if(resultado is not None):
         print("-----------------------------")
         print(f"O resultado é: {resultado}")
-        resultado = None
     
